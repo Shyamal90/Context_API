@@ -20,3 +20,48 @@ a{
     text-decoration: none;
     margin-left: 3rem;
 }
+
+/* =================================================
+====================================================
+        Design Product Page
+====================================================
+====================================================*/
+
+.products_container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    border: 1px solid rgb(245, 245, 245);
+}
+
+.product_container{
+    width: 25%;
+    /* margin: 2em 0 0 10em; */
+    margin: 10px;
+    border: 6px solid rgb(217, 245, 245);
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(235, 235, 235);
+}
+
+.product_desc{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.addBtn{
+    font-weight: 700;
+    font-size: 130%;
+    color: white;
+    background-color: teal;
+    border: 1px solid teal;
+    padding: 7px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.addBtn:active{
+    background-color: rgb(2, 67, 67);
+}
